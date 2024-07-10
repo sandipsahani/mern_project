@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      margin-bottom: 30px;
+    }
+    .hero-section {
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .content-section {
+      padding: 60px 0;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+      </style>
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container-fluid bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Welcome to MyWebsite</h1>
+      <p class="lead">Your success starts here</p>
+      <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+  </div>
+   <div class="container content-section ">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Our Services</h2>
+        <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Contact Us</h2>
+        <p>Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta. Integer id quam.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <p>&copy; 2024 MyWebsite. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
